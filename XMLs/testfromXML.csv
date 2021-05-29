@@ -1,0 +1,16 @@
+AnalysisDate,RunDate,User,Site,BaseCurrency,PortfolioName,PortfolioOwner,BenchmarkName,BenchmarkOwner,PointRelease,PointRevision,SavedReportName,RiskUnits,RiskScaleFactor,DefaultPrecision,SecurityPartitionName,SecurityPartitionOwner,FactorPartitionName,FactorPartitionOwner,CovarianceSystematicWeighted,CovarianceNonSystematicWeighted,CovarianceCreditDefaultWeighted,SpecifiedCalibrationsDate,UsingLatestUpdatedCalibrations,CalibrationEffectiveDate,CalibrationUpdateDate,AssetCoverage,MarketImpliedRatings,DisplayLines,ShowWarnings,MonetaryUnitsScale,BenchmarkScale,ImplicitCurrencyHedgingPortfolio,ImplicitCurrencyHedgingBenchmark,ImplicitYieldCurveHedgingPortfolio,ImplicitYieldCurveHedgingBenchmark,ImplicitSwapSpreadsHedgingPortfolio,ImplicitSwapSpreadsHedgingBenchmark,ImplicitVolatilityHedgingPortfolio,ImplicitVolatilityHedgingBenchmark,ImplicitOtherSystematicRiskHedgingPortfolio,ImplicitOtherSystematicRiskHedgingBenchmark,AdjustPositionPortfolio,AdjustPositionBenchmark,DecomposeMunicipalsMmdCurve,LegacyCreditModel,EquityOnlyReportMode,ModelFrequency,FXSource
+4/12/2021,"Apr 20, 2021 11:27 AM EDT",3877665,839338,USD,35_LEBI,GAM (UK) LTD Enterprise Port+ Administrators,LEBI_BM,GAM (UK) LTD Enterprise Port+ Administrators,8.1603-999.0,8.1603-999.0,RH_GRM,bps,1.0,2,Asset Type > Sector,System,GRM Global Factors,System,weighted,weighted,weighted,N/A,false,3/31/2021,4/9/2021,true,true,15,false,N/A,N/A,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,monthly,DEFAULT
+""
+,,
+,,,,0.7576208995216417
+,
+""
+,,,,,
+,
+,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,
+78.19110504643191,,
+78.19110504643191,,
+""
