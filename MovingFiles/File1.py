@@ -1,5 +1,4 @@
-import win32api
+import sys
 
-drives = win32api.GetLogicalDriveStrings()
-drives = drives.split('\000')[:-1]
-print(drives)
+
+print(sys.argv[0])
