@@ -18,5 +18,6 @@ world_population = [
 
 ]
 
+my_list = [to_locust_units(i) for i in world_population if i < 1_000_000_000]
 
-
+print(my_list)
