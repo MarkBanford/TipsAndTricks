@@ -1,8 +1,7 @@
-def sub(a, b):
-    return a - b
+class Car:
+    def __init__(self, make, model, age):
+        self.make = make
+        self.model = model
+        self.age = age
 
 
-num1 = 12
-num2 = 6
-
-print(sub(num1, num2))

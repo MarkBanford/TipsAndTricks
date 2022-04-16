@@ -1,10 +1,10 @@
 from pytube import YouTube
 import os
 
-title = 'https://youtu.be/rWYKh6-2ORA'
+title = 'https://youtu.be/lj-FvdszohE'
 
 
-def mp4(title):
+def mp4():
     Download_Location = 'E:\\YT\\MP4'
 
     yt = YouTube(title)
@@ -21,7 +21,7 @@ def mp4(title):
 
 ######################
 
-def mp3(title):
+def mp3():
     Download_Location = 'E:\\YT\\MP3'
     yt = YouTube(title)
 
@@ -31,5 +31,5 @@ def mp3(title):
 
 
 if __name__ == '__main__':
-    #mp3(title)
-    mp4(title)
+    #mp3()
+    mp4()

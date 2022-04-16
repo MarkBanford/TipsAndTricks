@@ -13,7 +13,7 @@ def dispatch_if(operator, x, y):
 print(dispatch_if('mul', 2, 5))
 
 
-# Another way
+# Another way using switch case
 
 def dispatch_dict(operator, x, y):
     return {
@@ -24,6 +24,6 @@ def dispatch_dict(operator, x, y):
     }.get(operator, lambda: None)()
 
 
-print(dispatch_dict('mul', 3, 5))
+print(dispatch_dict('mul', 2, 5))
 
 
