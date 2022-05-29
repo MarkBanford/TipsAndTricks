@@ -1,7 +1,7 @@
 from pytube import YouTube
 import os
 
-title = 'https://youtu.be/lj-FvdszohE'
+title = 'https://youtu.be/InLgSUw_ZOE'
 
 
 def mp4():
@@ -28,6 +28,7 @@ def mp3():
     os.chdir(Download_Location)
 
     download = YouTube(title).streams.filter(only_audio=True).first().download()
+    #yt.streams.get_audio_only().download(output_path=Download_Location, filename=yt.title)
 
 
 if __name__ == '__main__':
