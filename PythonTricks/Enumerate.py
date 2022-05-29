@@ -2,26 +2,26 @@ from enum import Enum, auto
 
 
 class Suite(Enum):
-    DIAMOND = auto()
-    CLUB = auto()
-    HEART = auto()
-    SPADE = auto()
+    DIAMOND = 100
+    CLUB = 200
+    HEART = 300
+    SPADE = 400
 
 
 class Value(Enum):
-    TWO = auto()
-    THREE = auto()
-    FOUR = auto()
-    FIVE = auto()
-    SIX = auto()
-    SEVEN = auto()
-    EIGHT = auto()
-    NINE = auto()
-    TEN = auto()
-    JACK = auto()
-    QUEEN = auto()
-    KING = auto()
-    ACE = auto()
+    TWO = 2
+    THREE = 3
+    FOUR = 4
+    FIVE = 5
+    SIX = 6
+    SEVEN = 7
+    EIGHT = 8
+    NINE = 9
+    TEN = 10
+    JACK = 11
+    QUEEN = 12
+    KING = 13
+    ACE = 14
 
 
 class Card:
@@ -64,6 +64,5 @@ class Deck:
 
 if __name__ == '__main__':
     card1 = Card(Suite.DIAMOND, Value.TWO)
-    deck = Deck()
+    deck=Deck()
     print(deck)
-    print(len(deck.cards))
