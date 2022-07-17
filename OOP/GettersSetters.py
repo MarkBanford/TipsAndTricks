@@ -12,6 +12,7 @@ class Person:
     def fullname(self):
         return self.first + ' ' + self.last
 
+
     @fullname.setter
     def fullname(self, name):
         self.first, self.last = name.split()
