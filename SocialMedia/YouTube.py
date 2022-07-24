@@ -1,7 +1,7 @@
 from pytube import YouTube
 import os
 
-title = 'https://www.youtube.com/watch?v=8EIHgvryR2k'
+title = 'https://youtu.be/vIu6KTCnaHg'
 
 
 def mp4():
